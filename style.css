@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Montserrat+Subrayada|PT+Sans+Narrow|Pacifico|Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tulpen+One&display=swap');
+/*font-family: 'Slabo 27px', serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto Condensed', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Cairo:wght@400;900&family=Girassol&family=Lobster&family=Noto+Serif:ital,wght@0,400;0,700;1,700&family=Pacifico&family=Quicksand:wght@600;700&display=swap');
+
+/*font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Cairo', sans-serif;
+font-family: 'Girassol', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Noto Serif', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Quicksand', sans-serif;*/
+/* Scroll 5 */
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  /*background-image: radial-gradient(circle at top right, rgba(121, 68, 154, 0.13),transparent),
+    radial-gradient(circle at 20% 80%, rgba(41, 196, 255, 0.13), transparent)
+*/
+}
+canvas {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg, #00aeff, #a68eff);
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;
+}
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+.text {
+  font-family: 'Roboto Mono', monospace;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  color: #fafafa;
+}
+.dud {
+  color: #757575;
+}
+.pname{
+      font-size: 50px;
+    }
+
+
+q{
+    color:#FFFFFF ;
+    font-family:'Tulpen One', cursive;
+    font-size: 40px;
+}
+.hirebtn{
+    padding-left:100px ;
+    padding-right:100px ;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    border-radius: 50px; 
+    background: #8E44AD ;
+    border: 0px;
+    color: #F1C40F;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+}
+.hirebtn:hover{
+    background: #F1C40F;
+    color: #8E44AD;
+}
+#techdiv{
+   /* background: #F8C471;*/
+    color: white ;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    cursor: pointer;
+}
+#tech{
+/*    background: #F8C471;
+*/    color: #F8C471 ;
+    font-size: 400px;
+font-family: 'Noto Serif', serif;
+}
+#certdiv{
+/*    background-color: #143D59 ; 
+*/    color: #F4B41A;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+#cert{
+    color: #143D59 ;
+    font-size: 40px;
+    font-family: 'Slabo 27px', serif;
+}
+#traindiv{
+/*    background-color: #FFA781; 
+*/    color: #4ACFAC;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+#train{
+    color: maroon;
+    font-size: 20px;
+    font-family: 'Slabo 27px', serif;
+}
+/*#ccdiv{
+    background-color: #2F2F2B; 
+    color: #FF7129;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+}
+#cc{
+    background: #2F2F2B;
+    color: #FF7129;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 40px;
+    font-family: 'Slabo 27px', serif;
+}*/
+#projectdiv{
+/*    background-color: #FBEB58; 
+*/    color: #7D8CE0;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+#project{
+    /*background: #FBEB58;*/
+    color: #545B60;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 20px;
+    font-family: 'Slabo 27px', serif;
+}
+/*#badgediv{
+    background-color: #4962B6; 
+    color: #E64E49;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+}
+#badge{
+    background: #4962B6;
+    color: #E64E49;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 40px;
+    font-family: 'Slabo 27px', serif;
+    list-style-type: none;
+}*/
+/*#edudiv{
+    background-color: #D97CA3; 
+    color: #5D5D5C;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+}
+#edu{
+    background: #D97CA3;
+    color: #5D5D5C;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 40px;
+    font-family: 'Slabo 27px', serif;
+    list-style-type: none;
+}*/
+#portdiv{
+/*    background-color: #F9F6F4; 
+*/    color: #B44956;
+font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+#port{
+    /*background: #F9F6F4;*/
+    color: #B44956;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 40px;
+    font-family: 'Slabo 27px', serif;
+    list-style-type: none;
+}
+.foot{
+    background: #5F6A6A  ;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #FDFEFE   ;
+    font-size: 20px;
+}
+.socialIcons{
+    color: white;
+    width: 4%;
+    height: auto;
+}
+.socialIcons:hover{
+    width: 50px;
+    height: auto;
+    transition: 0.5s;
+    color: #9176FC;
+
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300&display=swap");
+
+/*General styling for structure*/
+body {
+  margin: 0;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  height: 100vh;
+}
+
+header h2 {
+  font-weight: 400;
+}
+
+.scroll-container {
+  height: auto;
+  min-height: 450px;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.scroll-container:nth-of-type(1) {
+  /*background-color: #644e5b;*/
+}
+.scroll-container:nth-of-type(2) {
+  /*background-color: #9e5a63;*/
+}
+.scroll-container:nth-of-type(3) {
+  /*background-color: #c96567;*/
+}
+.scroll-container:nth-of-type(4) {
+  /*background-color: #97aabd;*/
+}
+
+.scroll-container:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.scroll-element,
+.scroll-caption {
+  width: 50%;
+}
+
+.scroll-element{
+  min-height: 30px;
+  height: auto;
+  width: 50%;
+  border-radius: 60px;
+  background-color: #E2BE67;
+  float: left;
+}
+
+.scroll-caption {
+  margin: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 0.5rem 0;
+  background-color: #faddad;
+}
+
+footer p {
+  font-size: 0.75rem;
+  margin: 0.25rem 0;
+  color: #221133;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/**Styling scrollable elements*/
+
+.js-scroll {
+  opacity: 0;
+  padding: 50px;
+  transition: opacity 500ms;
+}
+
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
+.scrolled.fade-in {
+  animation: fade-in 1s ease-in-out both;
+}
+
+.scrolled.fade-in-bottom {
+  animation: fade-in-bottom 1s ease-in-out both;
+}
+
+.scrolled.slide-left {
+  animation: slide-in-left 1s ease-in-out both;
+}
+
+.scrolled.slide-right {
+  animation: slide-in-right 1s ease-in-out both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-2-11 23:32:31
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 650px) {
+  .scroll-container,
+  .scroll-container:nth-of-type(even) {
+    flex-direction: column;
+    align-content: inherit;
+    
+  }
+
+  .scroll-element {
+    height: 100%;
+  }
+
+  .scroll-element,
+  .scroll-caption {
+    width: 100%;
+  }
+  #techdiv{
+      font-size: 30px
+    }
+    /* img{
+      width: 50%;
+    } */
+    .pname{
+      font-size: 30px;
+    }
+  
+}
